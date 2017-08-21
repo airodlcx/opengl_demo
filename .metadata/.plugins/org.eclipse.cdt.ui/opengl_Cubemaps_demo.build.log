@@ -1,0 +1,12 @@
+09:15:29 **** Rebuild of configuration Debug for project opengl_Cubemaps_demo ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o glad.o "..\\glad.c" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++11 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'int main()':
+..\main.cpp:241:15: warning: variable 'floorTextureID' set but not used [-Wunused-but-set-variable]
+  unsigned int floorTextureID;
+               ^
+g++ -o opengl_Cubemaps_demo.exe glad.o main.o -lglfw3dll -lassimp.dll -lopengl32 -lglu32 
+
+09:15:36 Build Finished (took 7s.297ms)
+

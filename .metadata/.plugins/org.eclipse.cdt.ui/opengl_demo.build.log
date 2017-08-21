@@ -1,0 +1,8 @@
+11:01:10 **** Rebuild of configuration Debug for project opengl_demo ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o glad.o "..\\glad.c" 
+g++ -o opengl_demo.exe glad.o main.o -lglfw3dll -lopengl32 -lglu32 
+
+11:01:33 Build Finished (took 22s.944ms)
+

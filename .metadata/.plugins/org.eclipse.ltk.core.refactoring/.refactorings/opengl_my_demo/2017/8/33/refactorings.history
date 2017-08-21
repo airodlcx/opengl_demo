@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;opengl_my_demo/fragmentShader.glsl&apos; to &apos;box.fl&apos;" description="Rename resource &apos;fragmentShader.glsl&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="fragmentShader.glsl" name="box.fl" stamp="1502937850123" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;opengl_my_demo/vertexShader.glsl&apos; to &apos;box.vl&apos;" description="Rename resource &apos;vertexShader.glsl&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="vertexShader.glsl" name="box.vl" stamp="1502937863111" updateReferences="true"/>
+</session>

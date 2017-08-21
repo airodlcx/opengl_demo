@@ -1,0 +1,41 @@
+/*
+ * main.cpp
+ *
+ *  Created on: 2017Äê8ÔÂ10ÈÕ
+ *      Author: lcx19
+ */
+#include <iostream>
+#include <opencv2/core.hpp>
+#include <opencv2/opencv.hpp>
+#include <opencv2/highgui.hpp>
+
+using namespace std;
+using namespace cv;
+
+
+int main(){
+	namedWindow("[demo]",WINDOW_AUTOSIZE);
+
+	VideoCapture vc(0);
+
+	Mat frame,edge;
+
+	bool stop = false;
+
+	while(!stop){
+		vc>>frame;
+
+		GaussianBlur(frame,egde,Size(3,3),2,2)
+
+		imshow("[demo]",frame);
+
+		if(((char)waitKey(1))=='q'){
+			stop = true;
+		}
+	}
+	return 0;
+}
+
+
+
+

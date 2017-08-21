@@ -1,0 +1,49 @@
+/*
+ * main.cpp
+ *
+ *  Created on: 2017年8月10日
+ *      Author: lcx19
+ */
+#include <iostream>
+#include <opencv2/core.hpp>
+#include <opencv2/opencv.hpp>
+#include <opencv2/highgui.hpp>
+#include <opencv2/imgproc.hpp>
+#include <opencv2/imgcodecs.hpp>
+
+using namespace std;
+using namespace cv;
+
+
+int main(){
+	namedWindow("[demo]",WINDOW_AUTOSIZE);
+
+	VideoCapture vc(0);
+
+	Mat frame,edge;
+
+	bool stop = false;
+
+	while(!stop){
+		vc>>frame;
+
+		GaussianBlur(frame,edge,Size(3,3),2,2);
+
+		Sobel(a, ax, CV_16S, 1, 0,-1);
+		Sobel(a, ay, CV_16S, 0, 1,-1);
+		convertScaleAbs(ax, axx);      //将CV_16S转为CV_8U
+		convertScaleAbs(ay, ayy);
+		addWeighted(axx, 0.5, ayy, 0.5, 0,a);     //将两图相加
+
+		imshow("[demo]",edge);
+
+		if(((char)waitKey(1))=='q'){
+			stop = true;
+		}
+	}
+	return 0;
+}
+
+
+
+
