@@ -1,47 +1,35 @@
-12:19:40 **** Incremental Build of configuration Debug for project opengl_Geometry_Shade_demo ****
+12:57:03 **** Incremental Build of configuration Debug for project opengl_Instancing_demo ****
 Info: Internal Builder is used for build
 g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++11 -o main.o "..\\main.cpp" 
-g++ -o opengl_Geometry_Shade_demo.exe glad.o main.o -lglfw3dll -lassimp.dll -lopengl32 -lglu32 
-Info: Nothing to build for opengl_Geometry_Shade_demo
-12:20:01 **** Incremental Build of configuration Debug for project opengl_Geometry_Shade_demo ****
+g++ -o opengl_Instancing_demo.exe glad.o main.o -lglfw3dll -lassimp.dll -lopengl32 -lglu32 
+Info: Nothing to build for opengl_Instancing_demo
+13:12:30 **** Incremental Build of configuration Debug for project opengl_Instancing_demo ****
 Info: Internal Builder is used for build
 g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++11 -o main.o "..\\main.cpp" 
-g++ -o opengl_Geometry_Shade_demo.exe glad.o main.o -lglfw3dll -lassimp.dll -lopengl32 -lglu32 
-Info: Nothing to build for opengl_Geometry_Shade_demo
-Info: Nothing to build for opengl_Geometry_Shade_demo
-Info: Nothing to build for opengl_Geometry_Shade_demo
-Info: Nothing to build for opengl_Geometry_Shade_demo
-12:27:01 **** Incremental Build of configuration Debug for project opengl_Geometry_Shade_demo ****
+g++ -o opengl_Instancing_demo.exe glad.o main.o -lglfw3dll -lassimp.dll -lopengl32 -lglu32 
+13:14:19 **** Incremental Build of configuration Debug for project opengl_Instancing_demo ****
 Info: Internal Builder is used for build
 g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++11 -o main.o "..\\main.cpp" 
-g++ -o opengl_Geometry_Shade_demo.exe glad.o main.o -lglfw3dll -lassimp.dll -lopengl32 -lglu32 
-12:27:48 **** Incremental Build of configuration Debug for project opengl_Geometry_Shade_demo ****
+g++ -o opengl_Instancing_demo.exe glad.o main.o -lglfw3dll -lassimp.dll -lopengl32 -lglu32 
+15:29:17 **** Incremental Build of configuration Debug for project opengl_Instancing_demo ****
 Info: Internal Builder is used for build
 g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++11 -o main.o "..\\main.cpp" 
-g++ -o opengl_Geometry_Shade_demo.exe glad.o main.o -lglfw3dll -lassimp.dll -lopengl32 -lglu32 
-12:30:56 **** Incremental Build of configuration Debug for project opengl_Geometry_Shade_demo ****
+..\main.cpp: In function 'int main()':
+..\main.cpp:146:83: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+   glVertexAttribPointer(4, 4, GL_FLOAT, GL_FALSE, 4 * vec4Size, (GLvoid*)(vec4Size));
+                                                                                   ^
+..\main.cpp:148:87: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+   glVertexAttribPointer(5, 4, GL_FLOAT, GL_FALSE, 4 * vec4Size, (GLvoid*)(2 * vec4Size));
+                                                                                       ^
+..\main.cpp:150:87: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+   glVertexAttribPointer(6, 4, GL_FLOAT, GL_FALSE, 4 * vec4Size, (GLvoid*)(3 * vec4Size));
+                                                                                       ^
+g++ -o opengl_Instancing_demo.exe glad.o main.o -lglfw3dll -lassimp.dll -lopengl32 -lglu32 
+15:36:57 **** Incremental Build of configuration Debug for project opengl_Instancing_demo ****
 Info: Internal Builder is used for build
 g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++11 -o main.o "..\\main.cpp" 
-g++ -o opengl_Geometry_Shade_demo.exe glad.o main.o -lglfw3dll -lassimp.dll -lopengl32 -lglu32 
-Info: Nothing to build for opengl_Geometry_Shade_demo
-Info: Nothing to build for opengl_Geometry_Shade_demo
-12:50:28 **** Incremental Build of configuration Debug for project opengl_Geometry_Shade_demo ****
+g++ -o opengl_Instancing_demo.exe glad.o main.o -lglfw3dll -lassimp.dll -lopengl32 -lglu32 
+15:38:46 **** Incremental Build of configuration Debug for project opengl_Instancing_demo ****
 Info: Internal Builder is used for build
 g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++11 -o main.o "..\\main.cpp" 
-g++ -o opengl_Geometry_Shade_demo.exe glad.o main.o -lglfw3dll -lassimp.dll -lopengl32 -lglu32 
-Info: Nothing to build for opengl_Geometry_Shade_demo
-Info: Nothing to build for opengl_Geometry_Shade_demo
-Info: Nothing to build for opengl_Geometry_Shade_demo
-Info: Nothing to build for opengl_Geometry_Shade_demo
-Info: Nothing to build for opengl_Geometry_Shade_demo
-Info: Nothing to build for opengl_Geometry_Shade_demo
-12:58:20 **** Incremental Build of configuration Debug for project opengl_Geometry_Shade_demo ****
-Info: Internal Builder is used for build
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++11 -o main.o "..\\main.cpp" 
-g++ -o opengl_Geometry_Shade_demo.exe glad.o main.o -lglfw3dll -lassimp.dll -lopengl32 -lglu32 
-12:59:08 **** Incremental Build of configuration Debug for project opengl_Geometry_Shade_demo ****
-Info: Internal Builder is used for build
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++11 -o main.o "..\\main.cpp" 
-g++ -o opengl_Geometry_Shade_demo.exe glad.o main.o -lglfw3dll -lassimp.dll -lopengl32 -lglu32 
-Info: Nothing to build for opengl_Geometry_Shade_demo
-Info: Nothing to build for opengl_Geometry_Shade_demo
+g++ -o opengl_Instancing_demo.exe glad.o main.o -lglfw3dll -lassimp.dll -lopengl32 -lglu32 
